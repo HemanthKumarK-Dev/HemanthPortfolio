@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+    background-color:#FBF7F0;
+    font-family: "Poppins",sans-serif;
+ 
+
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+.wave{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.logo-pro{
+    color: #fff;
+}
+ nav h2{
+  font-size: 40px;
+  margin-left: 40px;
+
+}
+header{
+  height: 100px;
+}
+header h1{
+  text-align: center;
+  color: #fff;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 20px;
+
+}
+
+
+
+.project-card{
+    height: 480px;
+    width: 600px;
+    background-color:rgba(205,201,195,0.45);
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.project-img img{
+  
+}
+.project-title{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 34px;
+    color: #473de5;
+    font-family: "Poppins", sans-serif;
+}
+
+.project-skill-item{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.project-skill-item li{
+    font-size: 18px;
+    font-family: "Poppins ",sans-serif;
+    margin-left: 10px;
+    color: #473de5;
+    margin-top: 0px;
+
+}
+.project-skill-list{
+    margin-right: 10px;
+    
+}
+
+.card-links{
+    display: flex;
+    justify-content: center;
+
+}
+.card-links a{
+    margin-left: 20px;
+}
+
+a.demo{
+    font-size: 18px;
+    color: #473de5;
+}
+
+.card-links a{
+    text-decoration: none;
+    color: #473de5;
+    position: relative;
+    bottom: 3px;
+}
+
+.project-img img{
+    height: 300px;
+    width: 530px;
+    object-fit:contain;
+    margin:5% 5% 1% 5%;
+    border-radius: 20px;
+}
+
+
+
+
+
+
